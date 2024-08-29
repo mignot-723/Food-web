@@ -1,0 +1,86 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(image2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1600px;
+    height:600px; 
+}
+.contact-form{
+    width:80%;
+    max-width: 2000px;
+    background: url(10.jpg);
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%,50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius:8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+    font-family: "Montserret",sans-serif;
+
+}
+.img-wrap{width: 100%}
+.img-wrap img{
+    width: 25%;
+    padding: 10px;
+    border-radius:50%;
+    box-shadow: 0 0 10px #999999;
+
+} 
+.main-container {
+    max-width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.nav{
+    position: fixed;
+    top:0;
+    left:0;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 80px;
+
+
+}
+.left{
+    float:left;
+}
+.left ul{
+    list-style: none;
+    padding: 1em 3em;
+}
+.left ul li{
+    display: inline-block;
+}
+.left ul li a {
+    text-decoration: none;
+    color:yellow;
+    font-weight: 500;
+    padding: 8px 16px;
+}
+.right {
+    float:right;
+}
+.right ul{
+    list-style: none;
+    padding: 1em 3em;
+}
+.right ul li{
+    display: inline-block;
+}
+.right ul li a {
+    text-decoration: none;
+    color:yellow;
+    font-weight: 500;
+    padding: 8px 16px;
+}
